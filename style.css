@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/* 全てのページに適用 */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+}
+
+.header {
+    margin: 0;
+    padding: 15px 0 10px 0;
+    text-align: center;
+    border-bottom-style: dotted;
+    height: 50px;
+    width: 100%;
+}
+
+.main {
+    margin: 50px 0 0 0;
+    padding: 10px 0 0 0;
+}
+
+.footer {
+    margin: 0;
+    padding: 0 0 10px 0;
+    text-align: center;
+    border-top-style: dotted;
+    height: 30px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    line-height: 130%;
+    font-size: 15px;
+}
+
+a:link {color: #6aa4d6;}
+a:visited {color: #6aa4d6;}
+a:hover {color: #4f7697;}
+a:active {color: #aed3f2;}
+
+img {
+    border-style: none;
+}
+
+/* sample01 */
+
+body {
+    /*
+    background-image: url("yaganaviPhoto/BackGroundImage.png");
+    background-size: contain;
+    */
+}
+
+.header {
+    border-image: linear-gradient(to left, #00cde1, #32cd32);
+    border-image-slice: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+.main {
+    overflow: auto;
+    text-align: center;
+}
+
+.footer {
+    border-image: linear-gradient(to left, #9932cc, #ffa500);
+    border-image-slice: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    color: #444444;
+}
+
+h1 {
+    color: #9932cc;
+}
+
+h2 {
+    color: #9932cc;
+}
+
+#lab {
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    border-color: #adff2f;
+    border-style: solid;
+}
+
+#lab li {
+    display: inline;
+    list-style-type: none;
+    padding: 15px;
+    color: #32cd32;
+    text-decoration: none;
+}
+#lab li:hover {
+    color: #adff2f;
+    text-decoration: none;
+}
+#lab li:active {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+/* 02_lab */
+
+.button {
+    color: #ffffff;
+    background: #00cde1;
+    border: 2px solid transparent;
+}
+
+.button:hover {
+    color: #00cde1;
+    background: #ffffff ;
+    border: 2px solid #00cde1;
+}
