@@ -29,6 +29,16 @@ body {
     background-color: #ffffff;
 }
 
+.snsbtniti2 {
+    white-space: nowrap; 
+    margin: 0;
+    padding: 0;  
+}
+
+.snsbtniti2 li{
+    display: inline;
+}
+
 .footer {
     margin: 0;
     padding: 10px 0;
