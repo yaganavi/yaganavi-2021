@@ -23,6 +23,9 @@ body {
     border-image: linear-gradient(to left, #00cde1, #32cd32);
     border-image-slice: 1;
     border-bottom-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     position: fixed;
     top: 0;
     left: 0;
