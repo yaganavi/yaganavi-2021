@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/* 全てのページに適用 */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #ffa500;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    text-align: center;
+}
+
+.header {
+    margin: 0;
+    padding: 10px 0 5px 0;
+    width: 100%;
+    border-image: linear-gradient(to left, #00cde1, #32cd32);
+    border-image-slice: 1;
+    border-bottom-style: dotted;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+.snsbtniti2 {
+    white-space: nowrap; 
+    margin: 0;
+    padding: 0;  
+}
+
+.snsbtniti2 li{
+    display: inline;
+}
+
+.footer {
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    border-image: linear-gradient(to left, #9932cc, #ffa500);
+    border-image-slice: 1;
+    border-top-style: dotted;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+.main {
+    margin: 75px 0 40px 0;
+    padding: 0;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 130%;
+    font-size: 15px;
+    color: #444444;
+}
+
+img {
+    border-style: none;
+}
+
+.labBtn {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    min-width: 100px;
+    color: #ffffff;
+    background: #00cde1;
+    border: 2px solid transparent;
+    box-shadow: 0px 2px 4px #4f7697;
+}
+.labBtn:hover {
+    background: #00ffff;
+}
+.labBtn:focus {
+    background: #00ffff;
+}
+.labBtn:active {
+    color: #00cde1;
+    background: #ffffff ;
+    border: 2px solid #00cde1;
+    box-shadow: none;
+}
+
+.contentsBtn {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    min-width: 100px;
+    color: #ffffff;
+    background: #ffa500;
+    border: 2px solid transparent;
+    box-shadow: 0px 2px 4px #4f7697;
+}
+
+.contentsBtn:hover {
+    background: #ffa500;
+}
+
+.contentsBtn:focus {
+    background: #ffa500;
+}
+
+.contentsBtn:active {
+    color: #ffa500;
+    background: #ffffff;
+    border: 3px solid #ffa500;
+    box-shadow: none;
+}
